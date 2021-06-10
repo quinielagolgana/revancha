@@ -23,7 +23,7 @@ function start(){
             else
                 break;
         }
-    document.getElementById("total").innerHTML = "Total: $" + quantity*5 +"\n";
+    document.getElementById("total").innerHTML = "Total: $" + quantity* 5 +"\n";
     if (display.childElementCount > 0)
     display.lastElementChild.innerHTML += `<button id="undo" onclick="remove()"><ion-icon name="arrow-undo-outline"></ion-icon></button>`;
 }  
